@@ -58,6 +58,7 @@ namespace CrudOperationsUsingWebAPI.Controllers
                 entity.name = customer.name;
                 satheeshdbEntities.SaveChanges();
                 return Ok(customer);
+                     //return Ok(customer);
             }
         }
 
